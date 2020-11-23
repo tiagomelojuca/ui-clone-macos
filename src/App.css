@@ -1,0 +1,12 @@
+@import url('http://db.onlinewebfonts.com/c/878812403fc38d24102f0458bf6e4744?family=Lucida+Grande');
+
+body {
+    overflow: hidden;
+}
+
+#bgimage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

@@ -1,0 +1,67 @@
+.topbar {
+    /* overflow: hidden; */
+    width: 100vw;
+    height: 22px;
+    background-color: #fbfcfb;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+}
+
+.topbar ul.topbar-left {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 16px;
+}
+
+.topbar ul.topbar-left li {
+    color: #4a4a4a;
+    list-style-type: none;
+    padding-top: 3px;
+    padding-left: 9px;
+    padding-right: 10px;
+    user-select: none;
+}
+
+.topbar ul.topbar-left li:not(.apple-logo):hover {
+    height: 19px;
+    color: #eee;
+    background: linear-gradient(0deg, rgba(0,118,244,1) 0%, rgba(114,167,243,1) 100%);
+    border-bottom: 1px solid #0076f4;
+}
+
+.topbar ul.topbar-left li.apple-logo {
+    list-style-type: none;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 7px;
+    user-select: none;
+}
+
+/* Right side */
+.topbar ul.topbar-right {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-right: 20px;
+}
+
+.topbar ul.topbar-right li {
+    list-style-type: none;
+    margin-left: 10px;
+    user-select: none;
+}
+
+.topbar-right-text {
+    padding-top: 3px;
+    padding-right: 9px;
+    padding-left: 8px;
+}
